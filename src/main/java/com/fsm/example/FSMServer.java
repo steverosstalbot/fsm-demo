@@ -35,7 +35,7 @@ public class FSMServer extends HttpServlet {
 	  {
 	      // Do required initialization
 		  primaryMsg = "Finite State Machine Scribble Servlet";
-		  secondaryMsg = "Ready to morph";
+		  secondaryMsg = "Ready to morph...";
 	  }
 
 	  public void doGet(HttpServletRequest request,

@@ -28,9 +28,6 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/stalbot/Downloads/JSONUtil-1.10.4.jar"/>
-	<classpathentry kind="lib" path="/Users/stalbot/Downloads/java-json.jar"/>
-	<classpathentry kind="lib" path="/Users/stalbot/wip/projects/lib/scribble.com.EasyFSM-1.1.1.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>

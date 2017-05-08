@@ -30,12 +30,14 @@ public class FSMServer extends HttpServlet {
 
 	  private String primaryMsg;
 	  private String secondaryMsg;
+	  private String tiertiaryMsg; // ADDED
 
 	  public void init() throws ServletException
 	  {
 	      // Do required initialization
 		  primaryMsg = "Finite State Machine Scribble Servlet";
 		  secondaryMsg = "Ready to morph...";
+		  tiertiaryMsg = "and just to add a small change."; // ADDED
 	  }
 
 	  public void doGet(HttpServletRequest request,
@@ -47,7 +49,9 @@ public class FSMServer extends HttpServlet {
 
 	      // Actual logic goes here.
 	      PrintWriter out = response.getWriter();
-	      out.println("<h1>" + primaryMsg + "</h1><h2>" + secondaryMsg + "</h2>");
+	      out.println("<h1>" + primaryMsg + 
+	    		  "</h1><h2>" + secondaryMsg + "</h2>");
+	      out.println("<h3>" + tiertiaryMsg + "</h3>"); // ADDED
 	  }
 	  
 	  public void destroy()

@@ -47,7 +47,7 @@ public class FSMServer extends HttpServlet {
 
 	      // Actual logic goes here.
 	      PrintWriter out = response.getWriter();
-	      out.println("<h1>" + primaryMsg + "</h1><h2>" + secondaryMsg + "/h2>");
+	      out.println("<h1>" + primaryMsg + "</h1><h2>" + secondaryMsg + "</h2>");
 	  }
 	  
 	  public void destroy()
